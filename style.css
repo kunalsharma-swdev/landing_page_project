@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1F2937;
+}
+
+.header-right{
+    display: flex;
+    gap: 20px;
+    margin-right: 150px;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header-left{
+    margin-left: 150px;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
