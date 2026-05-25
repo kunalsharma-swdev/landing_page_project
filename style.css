@@ -63,7 +63,7 @@ body{
     color: #E5E7EB;
 }
 
-button{
+.but1{
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-left: 60px;
@@ -77,4 +77,117 @@ button{
 
 .placeholder_text{
     color: #E5E7EB;
+}
+.info_heading{
+    margin-top: 150px;
+    margin-bottom: 30px;
+    color: #1F2937;
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box1, .box2, .box3, .box4{
+    height: 150px;
+    width: 150px;
+    border: #3882F6 solid 3px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.cards{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.quotee{
+    height: 350px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.upper_text{
+    font-size: 36px;
+    color: #1F2937;
+
+}
+
+.lower_text{
+    align-self: flex-end;
+    font-size: 30px;
+    font-weight: 900;
+    margin-right: 390px;
+    
+}
+
+.signup{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-bg{
+    height: 150px;
+    width: 1000px;
+    background-color: #3882F6;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup_text{
+    padding-left: 100px;
+}
+.signup_text_upper{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.signup_text_bottom{
+    font-size: 14px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E5E7EB;
+}
+
+.but2{
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-size: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.signup_button{
+    padding-right: 100px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+}
+
+.foot_content{
+    color: #F9FAF8;
 }
