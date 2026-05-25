@@ -12,8 +12,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 100px;
     background-color: #1F2937;
 }
 
@@ -30,4 +30,51 @@ body{
     font-size: 24px;
     color: #F9FAF8;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.image{
+    background-color: grey;
+    width:400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.hero_heading{
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F9FAF8;
+}
+.hero{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: #3882F6;
+}
+
+.placeholder_text{
+    color: #E5E7EB;
 }
